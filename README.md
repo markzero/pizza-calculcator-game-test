@@ -1,5 +1,8 @@
 # pizza-calculcator-game-test
 
+Install dependencies:
+> `yarn`
+
 Bundle for production:
 > `yarn build`
 
