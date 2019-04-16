@@ -6,6 +6,7 @@
   "scripts": {
     "tailwind:css": "tailwind build src/css/tailwind.src.css -c  tailwind.js -o src/css/tailwind.css",
     "start": "npm run tailwind:css && webpack-dev-server --config ./webpack.config.js --mode development",
+    "prod": "npm run tailwind:css && webpack-dev-server --config ./webpack.config.js --mode production",
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production"
   },
