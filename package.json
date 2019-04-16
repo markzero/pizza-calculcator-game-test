@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "tailwind:css": "tailwind build src/css/tailwind.src.css -c  tailwind.js -o src/css/tailwind.css",
-    "start": "npm run tailwind:css && webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "npm run tailwind:css && webpack-dev-server --config ./webpack.config.js --mode development",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
