@@ -8,3 +8,6 @@ Bundle for development:
 
 Start the app:
 > `yarn start`
+
+Start the app (production bundle):
+> `yarn prod`
